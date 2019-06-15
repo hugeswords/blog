@@ -1,8 +1,9 @@
 ---
 title: mysql索引
-date: 2018-09-25 17:25:49
+date: 2015-01-23 17:25:49
 categories: 数据库
-tags:
+tags: [数据库，索引]
+photos: "2015/01/23/mysql索引/top.png"
 ---
 
 ## 索引是什么
@@ -23,20 +24,19 @@ tags:
 
 show index from tblname;或者show keys from tblname;
 
-| 字段名      | 含义                                                                |  
-|-------------|---------------------------------------------------------------------| 
-|       Table | 表的名称                                                            |
-|  Non_unique | 如果索引不能包括重复词，则为0。如果可以，则为1                      |
-|    Key_name | 索引的名字                                                          |
-|Seq_in_index | 索引中的列序列号，从1开始，比如联合索引会涉及多个列                 |
-| Column_name | 列名称                                                              |
-|   Collation | 列以什么方式存储在索引中。在MySQL中，有值‘A’（升序）或NULL（无分类）|
-| Cardinality | 索引中唯一值的数目的估计值。                                        |
-|    Sub_part | 如果列只是被部分地编入索引，则为被编入索引的字符的数目。否则为NULL  |
-|      Packed | 指示关键字如何被压缩。如果没有被压缩，则为NULL                      |
-|        Null | 如果列含有NULL，则含有YES。如果没有，则该列含有NO                   |
-|  Index_type | 用过的索引方法（BTREE, FULLTEXT, HASH, RTREE）                      |
-|     Comment | 注释                                                                |
+ 字段名      : 含义                                                                 
+       Table : 表的名称                                                            
+  Non_unique : 如果索引不能包括重复词，则为0。如果可以，则为1                      
+    Key_name : 索引的名字                                                          
+Seq_in_index : 索引中的列序列号，从1开始，比如联合索引会涉及多个列                 
+ Column_name : 列名称                                                              
+   Collation : 列以什么方式存储在索引中。在MySQL中，有值‘A’（升序）或NULL（无分类）
+ Cardinality : 索引中唯一值的数目的估计值。                                        
+    Sub_part : 如果列只是被部分地编入索引，则为被编入索引的字符的数目。否则为NULL  
+      Packed : 指示关键字如何被压缩。如果没有被压缩，则为NULL                      
+        Null : 如果列含有NULL，则含有YES。如果没有，则该列含有NO                   
+  Index_type : 用过的索引方法（BTREE, FULLTEXT, HASH, RTREE）                      
+     Comment : 注释                                                                
 
 
 ## 索引的数据结构

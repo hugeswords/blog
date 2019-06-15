@@ -1,6 +1,6 @@
 ---
 title: gprof简单使用
-date: 2018-09-10 19:22:27
+date: 2015-01-20 19:22:27
 categories: 工具
 tags: 工具
 ---

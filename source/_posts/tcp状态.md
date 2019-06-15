@@ -1,11 +1,12 @@
 ---
 title: tcp状态
-date: 2018-09-17 19:39:05
+date: 2015-04-01 19:39:05
 categories: 网络
 tags: 网络
+photos: "2015/04/01/tcp状态/tcp_state.gif"
 ---
 
-<img src="tcp状态/tcp_state.gif" width="100%" height="100%">
+
 全部11种状态
 1. 客户端独有的：（1）SYN_SENT （2）FIN_WAIT1 （3）FIN_WAIT2 （4）CLOSING （5）TIME_WAIT 
 2. 服务器独有的：（1）LISTEN （2）SYN_RCVD （3）CLOSE_WAIT （4）LAST_ACK 

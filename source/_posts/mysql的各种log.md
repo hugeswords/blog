@@ -1,6 +1,6 @@
 ---
 title: mysql的各种log
-date: 2018-09-06 20:22:02
+date: 2015-01-21 20:22:02
 categories: 数据库
 tags: 数据库
 ---
